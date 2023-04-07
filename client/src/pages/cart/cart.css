@@ -1,0 +1,41 @@
+.cont-C {
+  display: flex;
+  gap: 20px;
+}
+.cont-C1 h4 {
+  font-size: 18px;
+}
+.cont-C1 p {
+  font-weight: 600;
+  color: gray;
+}
+.cont-C img {
+  width: 200px;
+  height: 200px;
+}
+.display-C {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 426px) {
+  .table {
+    width: 100%;
+  }
+  .display {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .cont-C img {
+    width: 120px;
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .cont-C {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

@@ -1,0 +1,62 @@
+.card-P:hover {
+  box-shadow: 5px 5px 10px gray;
+  height: 550px;
+  text-align: center;
+  opacity: 0.9;
+}
+.btn-P {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px;
+  background-color: #f2bd12;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn-P1 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px;
+  background-color: #f2bd12;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.card-P {
+  font-weight: 500;
+  width: 250px;
+  color: black;
+  font-size: 16px;
+  height: 550px;
+}
+.cont-P {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+@media only screen and (max-width: 426px) {
+  .cont-P {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
+  }
+  .card-P {
+    padding: 0px;
+    width: 150px;
+    border: none;
+    height: 550px;
+  }
+  .btn-P1 {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+  }
+  .btn-P {
+    margin-top: 20px;
+    padding: 5px;
+  }
+}

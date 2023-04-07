@@ -1,0 +1,39 @@
+.cards-L {
+  display: flex;
+  justify-content: space-between;
+}
+.card-L1 {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+.card-L2 {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+.btn-primary {
+  background-color: #52a7b2;
+}
+label {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 786px) {
+  .card-L1 {
+    width: 300px;
+  }
+  .card-L2 {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .cards-L {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 0px;
+  }
+}
